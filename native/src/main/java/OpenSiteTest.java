@@ -1,5 +1,3 @@
-package main.java;
-
 import com.google.gson.Gson;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.Proxy.ProxyType;
@@ -7,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class NativeSeleniumTest {
+public class OpenSiteTest {
 
     public void run() {
         ChromeOptions options = new ChromeOptions();
@@ -33,6 +31,6 @@ public class NativeSeleniumTest {
     }
 
     public static void main(String[] args) {
-        new NativeSeleniumTest().run();
+        new OpenSiteTest().run();
     }
 }

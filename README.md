@@ -23,6 +23,12 @@ But as we are running RobotFramework in JVM, we cannot use SeleniumLibrary pytho
 - The documentation is available at https://repo1.maven.org/maven2/com/github/hi-fi/robotframework-seleniumlibrary/3.141.59.26535/robotframework-seleniumlibrary-3.141.59.26535.html
 - As stated, “Some keyword differences between this and Python version exists. (Same) keywords should be aligned in upcoming versions.”
 
+### Tools
+
+Browser drivers are required for the tests to work
+- Chrome : https://sites.google.com/a/chromium.org/chromedriver
+- Firefox : https://github.com/mozilla/geckodriver
+
 ## The project
 
 - The native module calls Selenium classes to run automated tests (with proxy enabled). These are the reference tests.
