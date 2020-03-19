@@ -32,4 +32,6 @@ Browser drivers are required for the tests to work
 ## The project
 
 - The native module calls Selenium classes to run automated tests (with proxy enabled). These are the reference tests.
-- The robotframework module contains RF tests calling keywords implemented by robotframework-seleniumlibrary-java. If these tests run in the same way as native module, we have fixed our issues !
+  * They can be run with `mvn test`
+- The robotframework module contains RF tests calling keywords implemented by robotframework-seleniumlibrary-java.
+  * They can be run with `mvn test`
