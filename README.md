@@ -25,7 +25,7 @@ But as we are running RobotFramework in JVM, we cannot use SeleniumLibrary pytho
 
 ### Tools
 
-Browser drivers are required for the tests to work
+Browser drivers are required for the tests to work. Please make sure the versions of these drivers are compatible with the browser versions
 - Chrome : https://sites.google.com/a/chromium.org/chromedriver
 - Firefox : https://github.com/mozilla/geckodriver
 

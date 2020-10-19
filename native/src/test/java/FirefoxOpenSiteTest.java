@@ -20,11 +20,12 @@ public class FirefoxOpenSiteTest {
         FirefoxOptions options = new FirefoxOptions();
         options.setAcceptInsecureCerts(true);
         Proxy proxy = new Proxy();
-        proxy.setProxyType(ProxyType.MANUAL);
-        proxy.setHttpProxy("10.43.216.8:8080");
-        proxy.setSslProxy("10.43.216.8:8080");
-        proxy.setNoProxy("");
-        proxy.setAutodetect(false);
+        proxy.setProxyType(ProxyType.DIRECT);
+//        proxy.setProxyType(ProxyType.MANUAL);
+//        proxy.setHttpProxy("10.43.216.8:8080");
+//        proxy.setSslProxy("10.43.216.8:8080");
+//        proxy.setNoProxy("");
+//        proxy.setAutodetect(false);
         options.setProxy(proxy);
         options.setHeadless(true);
         driver = new FirefoxDriver(options);
